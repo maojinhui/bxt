@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: bxt-user
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: localhost
